@@ -1,0 +1,22 @@
+{
+  "name": "egg-kafka",
+  "version": "0.1.0",
+  "description": "kafka-node plugin for egg",
+  "eggPlugin": {
+    "name": "kafka"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.7",
+    "@types/sinon": "^7.5.0",
+    "egg": "^2.15.1",
+    "egg-bin": "^4.14.1",
+    "egg-mock": "^4.0.0",
+    "sinon": "7.5.0"
+  },
+  "dependencies": {
+    "kafka-node": "^5.0.0"
+  },
+  "scripts": {
+    "test": "egg-bin test"
+  }
+}
